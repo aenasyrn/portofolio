@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Mahasiswa Sistem Informasi Telkom University Jakarta</title>
+  <meta name="description"
+    content="Personal portfolio mahasiswa Sistem Informasi Telkom University Kampus Jakarta. Berfokus pada Web Development, System Analysis, Laravel, React.js, dan digitalisasi proses bisnis.">
+  <meta name="keywords"
+    content="Portfolio, Sistem Informasi, Telkom University Jakarta, Web Development, System Analysis, Laravel, React.js, Business Process Digitalization">
+  <meta name="author" content="Syepria Bilqiis Yosya">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Skip to Content for Accessibility -->
+  <a href="#main-content" class="skip-link">Lewati ke konten utama</a>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Beranda">
+        <!-- EDITABLE: Ganti inisial atau nama Anda di sini -->
+        <span class="logo-badge">SI</span>
+        <span class="logo-name">Syepria Bilqiis Yosya<span class="logo-dot">.</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Menu Utama">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- EDITABLE: Target contact button -->
+        <a href="#contact" class="btn btn-navy nav-cta">Let's Connect</a>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-menu"
+          aria-label="Buka navigasi mobile">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+      <div class="mobile-drawer-content">
+        <ul class="mobile-nav-list">
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+          <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+          <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-drawer-cta">
+          <a href="#contact" class="btn btn-navy btn-full mobile-cta-btn">Let's Connect</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ================= 3. HERO SECTION ================= -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-grid">
+        <!-- Hero Left Column: Info & Actions -->
+        <div class="hero-content reveal">
+          <h1 class="hero-title">
+            Turning Ideas Into <span class="highlight-navy">Meaningful Digital Solutions.</span>
+          </h1>
+
+          <p class="hero-description">
+            Passionate about Web Development, System Analysis, and transforming business processes into functional
+            digital experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-navy">
+              <span>Explore My Projects</span>
+              <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <div class="hero-tagline">
+            <span class="tagline-item">System Analysis</span>
+            <span class="tagline-separator" aria-hidden="true">·</span>
+            <span class="tagline-item">Web Development</span>
+            <span class="tagline-separator" aria-hidden="true">·</span>
+            <span class="tagline-item">Business Process Digitalization</span>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Profile & Abstract Tech Blueprint -->
+        <div class="hero-visual reveal reveal-delay-1">
+          <div class="visual-card-wrapper">
+            <!-- Background Decorative Geometric Layers -->
+            <div class="geo-decor geo-shape-1" aria-hidden="true"></div>
+            <div class="geo-decor geo-shape-2" aria-hidden="true"></div>
+
+            <!-- Main Profile & System Card -->
+            <div class="profile-card">
+              <!-- Header Bar of the Mockup -->
+              <div class="card-browser-bar" aria-hidden="true">
+                <span class="dot dot-1"></span>
+                <span class="dot dot-2"></span>
+                <span class="dot dot-3"></span>
+                <span class="browser-title">system-architecture.view</span>
+              </div>
+
+              <!-- System Schematic / Workflow Diagram Widget -->
+              <div class="system-schematic" aria-hidden="true">
+                <div class="schematic-header">
+                  <span class="schematic-label">Core Architectural Stack</span>
+                  <span class="schematic-tag">BPMN &middot; MVC</span>
+                </div>
+
+                <div class="schematic-flow">
+                  <div class="flow-node">
+                    <span class="node-icon">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                      </svg>
+                    </span>
+                    <span class="node-text">Business Needs</span>
+                  </div>
+                  <div class="flow-arrow">&rarr;</div>
+                  <div class="flow-node active">
+                    <span class="node-icon">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path
+                          d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                        </path>
+                      </svg>
+                    </span>
+                    <span class="node-text">System Analysis</span>
+                  </div>
+                  <div class="flow-arrow">&rarr;</div>
+                  <div class="flow-node">
+                    <span class="node-icon">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                      </svg>
+                    </span>
+                    <span class="node-text">Web App</span>
+                  </div>
+                </div>
+
+                <div class="schematic-footer">
+                  <span class="pill-code">Laravel</span>
+                  <span class="pill-code">React.js</span>
+                  <span class="pill-code">MySQL</span>
+                  <span class="pill-code">REST API</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. ABOUT ME ================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">PROFILE OVERVIEW</span>
+          <h2 class="section-title">A Little About Me</h2>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative reveal">
+            <p class="about-lead">
+              Mahasiswa aktif Program Studi Sistem Informasi Telkom University Kampus Jakarta dengan minat mendalam pada
+              Analisis Sistem dan Web Development. Memiliki kemampuan komunikasi yang baik, berpikir analitis, serta
+              terbiasa bekerja secara kolaboratif untuk menerjemahkan kebutuhan operasional menjadi solusi perangkat
+              lunak yang fungsional.
+            </p>
+            <p class="about-subtext">
+              Saya memandang teknologi bukan hanya sekadar deretan baris kode, melainkan sarana strategis untuk
+              memecahkan hambatan bisnis, meningkatkan efisiensi operasional organisasi, dan menghadirkan antarmuka
+              digital yang intuitif bagi pengguna.
+            </p>
+          </div>
+
+          <!-- 4 Quick Highlight Cards -->
+          <div class="about-cards-grid reveal reveal-delay-1">
+            <!-- Card 1: Education -->
+            <div class="about-card">
+              <div class="about-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="about-card-content">
+                <span class="card-meta">Education</span>
+                <h3 class="card-title">Information Systems</h3>
+              </div>
+            </div>
+
+            <!-- Card 2: University -->
+            <div class="about-card">
+              <div class="about-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M3 21h18M3 7v1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7m0 1a3 3 0 0 0 6 0V7M4 21V10m16 11V10M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4">
+                  </path>
+                </svg>
+              </div>
+              <div class="about-card-content">
+                <span class="card-meta">University</span>
+                <h3 class="card-title">Telkom University, Jakarta Campus</h3>
+              </div>
+            </div>
+
+            <!-- Card 3: Main Focus -->
+            <div class="about-card">
+              <div class="about-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="about-card-content">
+                <span class="card-meta">Main Focus</span>
+                <h3 class="card-title">Web Development &amp; System Analysis</h3>
+              </div>
+            </div>
+
+            <!-- Card 4: Interests -->
+            <div class="about-card">
+              <div class="about-card-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div class="about-card-content">
+                <span class="card-meta">Interests</span>
+                <h3 class="card-title">Digitalizing Business Processes</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. PROJECTS & EXPERIENCE ================= -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">PORTFOLIO SHOWCASE</span>
+          <h2 class="section-title">Selected Projects &amp; Experience</h2>
+          <p class="section-subtitle">
+            A collection of projects and experiences focused on building practical digital solutions and improving
+            business processes.
+          </p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <!-- Project Grid: Featured project 01 on top, followed by 4 structured project cards -->
+        <div class="projects-layout">
+
+          <!-- PROJECT 01 — Featured Card -->
+          <article class="project-card project-featured reveal" data-project-id="logistikku">
+            <div class="project-card-header">
+              <span class="project-number">01</span>
+              <span class="role-pill">Web Developer Intern</span>
+            </div>
+
+            <div class="project-content">
+              <div class="project-org">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  aria-hidden="true">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+                <span>PT Pegadaian Kantor Wilayah VIII Jakarta 1</span>
+              </div>
+              <h3 class="project-title">Website Logistikku</h3>
+              <p class="project-desc">
+                Pengalaman magang dalam proyek pengembangan Website Logistikku untuk mendukung digitalisasi proses
+                logistik.
+              </p>
+
+              <div class="project-tags" aria-label="Teknologi yang digunakan">
+                <span class="tech-tag">Web Development</span>
+                <span class="tech-tag">Logistics System</span>
+                <span class="tech-tag">Business Process Digitalization</span>
+                <span class="tech-tag">Database Management</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <button type="button" class="btn btn-project-detail" data-project-trigger="logistikku">
+                <span>View Project</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- 4-Grid for Projects 02 - 05 -->
+          <div class="projects-subgrid">
+
+            <!-- PROJECT 02 — SIPEDANG -->
+            <article class="project-card reveal reveal-delay-1" data-project-id="sipedang">
+              <div class="project-card-header">
+                <span class="project-number">02</span>
+                <span class="role-pill">System Analyst &amp; Web Developer</span>
+              </div>
+
+              <div class="project-content">
+                <span class="project-alias">Sistem Informasi Pendakian Gunung Gede</span>
+                <h3 class="project-title">SIPEDANG</h3>
+                <p class="project-desc">
+                  Proyek analisis sistem dan pengembangan sistem informasi terkait kegiatan pendakian Gunung Gede.
+                </p>
+
+                <div class="project-tags" aria-label="Teknologi yang digunakan">
+                  <span class="tech-tag">System Analysis</span>
+                  <span class="tech-tag">Web Development</span>
+                  <span class="tech-tag">Information System</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <button type="button" class="btn btn-project-detail" data-project-trigger="sipedang">
+                  <span>View Project</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </article>
+
+            <!-- PROJECT 03 — SIAP SK -->
+            <article class="project-card reveal reveal-delay-2" data-project-id="siap-sk">
+              <div class="project-card-header">
+                <span class="project-number">03</span>
+                <span class="role-pill">Web Developer</span>
+              </div>
+
+              <div class="project-content">
+                <span class="project-alias">Sistem Informasi Administrasi Permohonan Surat Keterangan</span>
+                <h3 class="project-title">SIAP SK</h3>
+                <p class="project-desc">
+                  Pengembangan sistem informasi untuk mendukung digitalisasi proses administrasi permohonan surat
+                  keterangan.
+                </p>
+
+                <div class="project-tags" aria-label="Teknologi yang digunakan">
+                  <span class="tech-tag">Web Development</span>
+                  <span class="tech-tag">Administrative Workflow</span>
+                  <span class="tech-tag">Process Digitalization</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <button type="button" class="btn btn-project-detail" data-project-trigger="siap-sk">
+                  <span>View Project</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </article>
+
+            <!-- PROJECT 04 — Website Profil Desa Cikasungka -->
+            <article class="project-card reveal reveal-delay-1" data-project-id="desa-cikasungka">
+              <div class="project-card-header">
+                <span class="project-number">04</span>
+                <span class="role-pill">Web Developer</span>
+              </div>
+
+              <div class="project-content">
+                <span class="project-alias">Public Information Portal</span>
+                <h3 class="project-title">Website Profil Desa Cikasungka</h3>
+                <p class="project-desc">
+                  Pengembangan website profil desa untuk menyajikan informasi desa secara digital.
+                </p>
+
+                <div class="project-tags" aria-label="Teknologi yang digunakan">
+                  <span class="tech-tag">Web Development</span>
+                  <span class="tech-tag">Village Portal</span>
+                  <span class="tech-tag">Digital Information</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <button type="button" class="btn btn-project-detail" data-project-trigger="desa-cikasungka">
+                  <span>View Project</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </article>
+
+            <!-- PROJECT 05 — Clean Energy Hub -->
+            <article class="project-card reveal reveal-delay-2" data-project-id="clean-energy">
+              <div class="project-card-header">
+                <span class="project-number">05</span>
+                <span class="role-pill">System Analyst &amp; Web Developer</span>
+              </div>
+
+              <div class="project-content">
+                <span class="project-alias">Sustainability &amp; Information Platform</span>
+                <h3 class="project-title">Clean Energy Hub</h3>
+                <p class="project-desc">
+                  Proyek analisis sistem dan pengembangan website yang berfokus pada informasi energi bersih.
+                </p>
+
+                <div class="project-tags" aria-label="Teknologi yang digunakan">
+                  <span class="tech-tag">System Analysis</span>
+                  <span class="tech-tag">Web Development</span>
+                  <span class="tech-tag">Clean Energy Platform</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <button type="button" class="btn btn-project-detail" data-project-trigger="clean-energy">
+                  <span>View Project</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. SKILLS SECTION ================= -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">COMPETENCIES</span>
+          <h2 class="section-title">Tools &amp; Skills</h2>
+          <p class="section-subtitle">
+            Kombinasi keahlian teknis dan kemampuan analitis dalam merancang serta mengimplementasikan solusi digital
+            berbasis sistem.
+          </p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: System & Business Analysis -->
+          <div class="skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Domain</span>
+                <h3 class="category-title">System &amp; Business Analysis</h3>
+              </div>
+            </div>
+
+            <ul class="skills-list">
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">System Analysis</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">Business Process Modeling</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">Requirements Gathering</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Web Development -->
+          <div class="skill-category-card reveal reveal-delay-1">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                  <line x1="10" y1="20" x2="14" y2="4"></line>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Development</span>
+                <h3 class="category-title">Web Development</h3>
+              </div>
+            </div>
+
+            <ul class="skills-list">
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">Laravel</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">React.js</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">PHP</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">RESTful API</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Database & Development Tools -->
+          <div class="skill-category-card reveal reveal-delay-2">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Architecture</span>
+                <h3 class="category-title">Database &amp; Tools</h3>
+              </div>
+            </div>
+
+            <ul class="skills-list">
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">Database Design (MySQL)</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">Git / GitHub</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 4: Professional Skills -->
+          <div class="skill-category-card reveal reveal-delay-3">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="category-label">Interpersonal</span>
+                <h3 class="category-title">Professional Skills</h3>
+              </div>
+            </div>
+
+            <ul class="skills-list">
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">Analytical Thinking</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">Problem Solving</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">Communication</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">Team Collaboration</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet" aria-hidden="true"></span>
+                <span class="skill-name">Time Management</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7. CERTIFICATIONS ================= -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">VERIFIED CREDENTIALS</span>
+          <h2 class="section-title">Certifications &amp; Continuous Learning</h2>
+          <p class="section-subtitle">
+            Komitmen pengembangan kompetensi berkelanjutan dalam analitika data dan proses bisnis enterprise.
+          </p>
+          <div class="section-divider" aria-hidden="true"></div>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Cert 1: Mini Course Data Analyst -->
+          <div class="cert-card reveal">
+            <div class="cert-header">
+              <div class="cert-icon-wrapper" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <circle cx="10" cy="13" r="2"></circle>
+                  <path d="m20 17-1.5-1.5"></path>
+                </svg>
+              </div>
+              <span class="cert-category-badge">Data &amp; Analytics</span>
+            </div>
+
+            <div class="cert-body">
+              <h3 class="cert-name">Mini Course Data Analyst</h3>
+              <div class="cert-meta-row">
+                <span class="cert-meta-label">Penerbit:</span>
+                <span class="cert-meta-value">PT Revolusi Cita Edukasi</span>
+              </div>
+              <div class="cert-meta-row">
+                <span class="cert-meta-label">Tahun:</span>
+                <span class="cert-meta-value">2025</span>
+              </div>
+            </div>
+
+            <div class="cert-footer">
+              <span class="cert-status-tag">Verified Course</span>
+            </div>
+          </div>
+
+          <!-- Cert 2: Web Developer Intern -->
+          <div class="cert-card reveal reveal-delay-1">
+            <div class="cert-header">
+              <div class="cert-icon-wrapper" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <span class="cert-category-badge">Web Development</span>
+            </div>
+
+            <div class="cert-body">
+              <h3 class="cert-name">Web Developer Intern</h3>
+              <div class="cert-meta-row">
+                <span class="cert-meta-label">Penerbit:</span>
+                <span class="cert-meta-value">PT Pegadaian Kanwil VIII Jakarta 1</span>
+              </div>
+              <div class="cert-meta-row">
+                <span class="cert-meta-label">Tahun:</span>
+                <span class="cert-meta-value">2026</span>
+              </div>
+            </div>
+
+            <div class="cert-footer">
+              <span class="cert-status-tag">Certified Internship</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 8. CONTACT SECTION ================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card-surface reveal">
+          <div class="contact-header">
+            <span class="contact-eyebrow">START A CONVERSATION</span>
+            <h2 class="contact-title">Let's Build Something Meaningful.</h2>
+            <p class="contact-description">
+              Open to learning opportunities, meaningful collaborations, and projects that turn ideas into practical
+              digital solutions.
+            </p>
+          </div>
+
+          <!-- Contact Channels / Links -->
+          <div class="contact-channels-grid">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/syepriabilqiisyosya" target="_blank" rel="noopener noreferrer" class="contact-channel-item"
+              id="contact-linkedin" title="Buka Profil LinkedIn">
+              <div class="channel-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">LinkedIn</span>
+                <span class="channel-value" title="linkedin.com/in/syepriabilqiisyosya">linkedin.com/in/syepriabilqiisyosya</span>
+              </div>
+              <div class="channel-action-badge" aria-hidden="true">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/aenasyrn" target="_blank" rel="noopener noreferrer" class="contact-channel-item"
+              id="contact-github" title="Buka Profil GitHub">
+              <div class="channel-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">GitHub</span>
+                <span class="channel-value" title="github.com/aenasyrn">github.com/aenasyrn</span>
+              </div>
+              <div class="channel-action-badge" aria-hidden="true">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </div>
+            </a>
+
+            <!-- Email -->
+            <div class="contact-channel-item email-channel" id="contact-email-container" title="Klik untuk menyalin email" role="button" tabindex="0">
+              <div class="channel-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="channel-info">
+                <span class="channel-label">Direct Email</span>
+                <span class="channel-value" id="email-address-text" title="bilqissyepria@gmail.com">bilqissyepria@gmail.com</span>
+              </div>
+              <button type="button" class="btn-copy-email" id="btn-copy-email" title="Salin alamat email"
+                aria-label="Salin alamat email">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  aria-hidden="true">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span class="copy-tooltip" id="copy-tooltip">Salin</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= 9. FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo footer-logo" aria-label="Kembali ke atas">
+            <span class="logo-badge">SI</span>
+            <!-- EDITABLE: Ganti dengan nama Anda -->
+            <span class="logo-name">Syepria Bilqiis Yosya<span class="logo-dot">.</span></span>
+          </a>
+          <p class="footer-tagline">
+            Mahasiswa Sistem Informasi Telkom University Kampus Jakarta &middot; Web Development &amp; System Analysis.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Navigasi Footer">
+          <ul class="footer-nav-list">
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#skills" class="footer-link">Skills</a></li>
+            <li><a href="#certifications" class="footer-link">Certifications</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-socials">
+          <!-- EDITABLE: Update href with your profile URLs -->
+          <a href="https://www.linkedin.com/in/syepriabilqiisyosya" target="_blank" rel="noopener noreferrer" class="footer-social-link"
+            aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/aenasyrn" target="_blank" rel="noopener noreferrer" class="footer-social-link"
+            aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+              </path>
+            </svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-divider" aria-hidden="true"></div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          Designed &amp; Built with HTML, CSS &amp; JavaScript.
+        </p>
+        <p class="footer-year">
+          &copy; <span id="current-year">2026</span> Syepria Bilqiis Yosya. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= PROJECT DETAIL MODAL ================= -->
+  <div class="modal-backdrop" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-labelledby="modal-title">
+    <div class="modal-container">
+      <button type="button" class="modal-close-btn" id="modal-close" aria-label="Tutup jendela detail proyek">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="modal-content" id="modal-body">
+        <!-- Content injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="Kembali ke atas halaman">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notification" id="toast" role="alert" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
